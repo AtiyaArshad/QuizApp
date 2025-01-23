@@ -1,0 +1,89 @@
+
+
+  
+  .white__box {
+    width: 35rem; /* Ensure the width and height are equal for a perfect circle */
+    height: 35rem;
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
+    border-radius: 50%; /* Makes the box circular */
+    display: flex; /* Center the content */
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for better visibility */
+    margin: auto; /* Center the circle on the page */
+  }
+  
+.effect{
+    height: 3rem;
+    width: 20rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.col4{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-around;
+    row-gap: 1.5rem;
+}
+.submit{
+    background-color: #007BFD;
+    color: #fff;
+}
+.headline{
+    font-size: 1.3rem; 
+    font-family: 'Arial', sans-serif; 
+    font-weight: bold; 
+    color: #000000; 
+}
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+ 
+
+    
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+   /*  body {
+      margin: 0 0 var(--header-height) 0;
+    } */
+    
+  
+  }
+  
+  @media screen and (max-width: 580px) {
+    .white__box{
+        width:24rem;
+        height:24rem;
+       
+    }
+    .effect{
+        height: 3rem;
+        width: 17rem;
+        
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 400px) {
+    .white__box{
+        width:20rem;
+        height:20rem;
+       
+    }
+    .effect{
+        height: 3rem;
+        width: 15rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+    }
+    .headline{
+        font-size: 1rem;
+    }
+  }
+  
+  
